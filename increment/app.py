@@ -1,6 +1,3 @@
-import boto3
-import simplejson as json
-
 
 def lambda_handler(event, context):
     dynamodb = boto3.resource('dynamodb')  
@@ -23,3 +20,4 @@ def lambda_handler(event, context):
         'Access-Control-Allow-Methods': 'POST' 
       },
     }
+# test change
